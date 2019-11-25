@@ -6,7 +6,7 @@
 #define S 1
 //#define DATA_FILE "Base.csv"
 
-//fonction de calcul de la sortie o
+//function of calculating the output o
 int calculateOutput(float w[E][S], float x[])
 {
     float sum = 0.0;
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 	int o;
 	int i, j;
 
-	FILE *fp = fopen("iris.csv","r");
+	FILE *fp = fopen("Base.csv","r");
    int count=0;
    char buff[70];
 	
